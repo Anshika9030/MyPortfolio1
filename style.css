@@ -1,0 +1,51 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .text3 :hover {
+            border-radius: 1px;
+            color: blue;
+        }
+        
+        .port {
+            color: red;
+            animation: portindex 2s infinite;
+        }
+        
+        @keyframes portindex {
+            0% {
+                color: yellow;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: red;
+            }
+            100% {
+                color: green;
+            }
+        }
+        
+        #about {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .img {
+            filter: blur(6px);
+        }
+        
+        #texts {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #texts:hover {
+            color: white;
+        }

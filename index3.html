@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/0d1a276013.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid-lg bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-light bg-success">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#"><span class="port">PORTFOLIO</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index2.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index1.html">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="AnshikaCv.docx">Download Resume</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active " href="index3.html ">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid-lg bg-secondary">
+        <form class="p-2">
+            <div class="row mb-3">
+                <label for="inputFirstName" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="FirstName">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="LastName">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputTEXT" class="col-sm-2 col-form-label">TEXT</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control p-4" id="TEXT">
+                </div>
+            </div>
+
+            <button onclick="showAlert()" type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+    </div>
+
+    <!-- -====================pagination=================== -->
+    <div class="container-fluid-lg">
+        <nav aria-label="Page navigation example ">
+            <ul class="pagination justify-content-center ">
+                <li class="page-item ">
+                    <a class="page-link " href="index.html ">Previous</a>
+                </li>
+                <li class="page-item "><a class="page-link " href="index2.html ">1</a></li>
+                <li class="page-item "><a class="page-link " href="index1.html ">2</a></li>
+                <li class="page-item "><a class="page-link " href="index3.html ">3</a></li>
+                <li class="page-item ">
+                    <a class="page-link " href="index2.html ">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- ===================footer======================= -->
+
+    <footer class="footer p-2 bg-dark">
+        <div class="container-fluid text-center fs-6 bg-dark text-light ">
+            <p>When you love yourself. You really know how much better you deserve.</p>
+        </div>
+        <div class="container-fluid text-center fs-4 justify-content-center bg-dark">
+            <a href="http://instagram.com/in/saanjh.chauhan/ "><i  class="fab fa-instagram " ></i></a>
+            <a href="http://www.facebook.com/saanjh.chauhan.90 "><i class="fab fa-facebook "></i></a>
+            <a href="http://github.com/anshika9030 "><i class="fab fa-github-square "></i></a>
+            <a href="https:www.linkedin.com/in/anshika-singh-453a0117b "><i class="fab fa-linkedin "></i></a>
+            <a href="http://www.twitter.com/@Anshika63621781 "><i class="fab fa-twitter "></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script>
+        function showAlert() {
+            alert("Done");
+        }
+    </script>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
